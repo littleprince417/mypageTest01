@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>김채현 개인홈페이지</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/common.js" defer></script>
+  </head>
+  <body>
+    <!-- 헤더부분 -->
+    <div id="headerWrap">
+      <video src="media/bg.mp4" id="video" autoplay infinite muted></video>
+    <header id="header">
+      <div id="headerBg">
+        <ul id="headList">
+          <li class="headBg1 on"></li>
+          <li class="headBg2"></li>
+          <li class="headBg3"></li>
+        </ul>
+      </div>
+      <hgroup>
+        <h1>ChAE HyEON KiM</h1>
+        <h2>Welcome to my homepage</h2>
+      </hgroup>
+    </header>
+    </div>
+    <!-- 네비부분 -->
+    <nav id="gnb">
+      <h2 class="hidden">김채현홈페이지 이용메뉴</h2>
+      <ul id="gnbList">
+        <li><a href="#headerWrap" class="now">HOME</a></li>
+        <li><a href="#content1">ABOUT ME</a></li>
+        <li><a href="#content2">MY SKILLS</a></li>
+        <li><a href="#content3">TMI</a></li>
+        <li><a href="#content4">ENJOY</a></li>
+        <li><a href="#content5">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- 컨텐츠 시작 -->
+    <main id="contentWrap">
+      <section id="content1">
+        <h2>About Me</h2>
+        <div id="me1">
+          <img src="images/me1.jpg" alt="" width="90%" height="60%">
+          <h3>Profile</h3>
+          <p>풀패키지 개발자가되기 위해 노력하는 김채현입니다</p>
+          <p>#열정 #될때까지 #꼼꼼함 #활발</p>
+        </div>
+        <div id="me2">
+          <img src="images/me2.jpg" alt="" width="90%" height="60%">
+          <h3>Favorite</h3>
+          <p>좋아하는 여가 - 자기계발서 독서, 하이틴 미드시청</p>
+          <p>좋아하는 음식 - 교촌치킨허니콤보, 오일파스타</p>
+        </div>
+        <div id="me3">
+          <h3>KEY WORDS</h3>
+          <p>#풀패키지 열정 #될때까지 #꼼꼼함 #활발</p>
+        </div>
+        <div id="me4">
+          <img src="images/me2.jpg" alt="" width="90%" height="60%">
+          <h3>Character</h3>
+          <p>장점</p>
+          <p>단점</p>
+        </div>
+
+
+      </section>
+      <section id="content2">
+        <h2>My Skills</h2>
+        <div id="skillWrap">
+          <div class="skill1">
+            <img src="images/icon-01.png" data-num="HTML5 70%" alt="" width="100px">
+            <p>Click image</p>
+            <div class="htmlD"></div>
+          </div>
+          <div class="skill2">
+            <img src="images/icon-02.png" data-num="CSS3 70%" alt="" width="100px">
+            <p>Click image</p>
+            <div class="cssD"></div>
+          </div>
+          <div class="skill3">
+            <img src="images/icon-03.png" data-num="Javascript - 70%" alt="" width="100px">
+            <p>Click image</p>
+            <div class="jsD"></div>
+          </div>
+          <div class="skill4">
+            <img src="images/icon-04.png" data-num="Jquery - 70%" alt="" width="100px">
+            <p>Click image</p>
+            <div class="jqD"></div>
+          </div>
+        </div>
+      </section>
+      <section id="content3">
+        <h2>TMI</h2>
+        <img src="images/tmi.png" alt="">
+        <p></p>
+      </section>
+      <section id="content4">
+        <h2>ENJOY</h2>
+        <div class="container">
+          <table id="puzzle-table">
+          </table>
+          <button type="button" class="mix">섞기</button>
+          <button type="button" class="reset">reset</button>
+          <input type="radio" id="easymode" name="mode" value="10" checked>easy
+          <input type="radio" id="hardmode" name="mode" value="100">hard
+          <span id="count"></span>
+        </div>
+      </section>
+      <section id="content5">
+        <h2>Contact</h2>
+        <ul id="contactList">
+          <div class="contactBox">
+            <li>Phone<br>
+              <a href="#">010-XXXX-XXXX</a></li>
+          </div>
+          <div class="contactBox">
+            <li>Mail<br>
+              <a href="#">chaechae@gmail.com</a></li>
+          </div>
+          <div class="contactBox">
+            <li class="sns">SNS<br>
+              <ul>
+                <li class="fbBtn"><a href="#">페이스북바로가기</a></li>
+                <li class="instaBtn"><a href="#">인스타그램바로가기</a></li>
+                <li class="kakaoBtn"><a href="#">카카오톡바로가기</a></li>
+              </ul>
+          </div>
+        </ul>
+      </section>
+      <a href="#" class="topBtn">TOP</a>
+    </main>
+    <!-- 푸터부분 -->
+    <footer id="footer">
+      <p>THANK YOU</p>
+      <small>copyright. 2021 by CHAE HYEON KIM. all rights reserved.</small>
+    </footer>
+  </body>
+</html>
